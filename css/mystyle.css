@@ -1,0 +1,53 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        text-decoration-line: none;
+        list-style-type: none;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+    body section {
+        background: linear-gradient(to right, rgba(236, 229, 229, 0.438), rgba(230, 230, 224, 0.534)), url(../images/paper.jpg);
+        width: 30%;
+        height: 650px;
+        margin: auto;
+        position: relative;
+    }
+
+    .firstLeafs {
+        width: 100%;
+    }
+
+    .secondLeafs {
+        width: 100%;
+        bottom: 0;
+        position: absolute;
+    }
+
+    .cursive p {
+        font-family: 'Calligraffitti', cursive;
+        font-size: 40px;
+        color: rgb(153, 126, 73);
+        font-weight: 500;
+        text-align: center;
+        bottom: 18px;
+        position: relative;
+    }
+
+    .mono {
+        font-family: 'Oxygen Mono', monospace;
+        padding:20px;
+        font-size: 15px;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+
+    .cursive2 p {
+        font-family: 'Calligraffitti', cursive;
+        color: rgb(70, 68, 68);
+        text-align: center;
+        padding: 10px;
+    }
+
